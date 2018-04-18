@@ -11,7 +11,7 @@ class HuffmanItem:
 class Huffman:
     arr = []
     result = []
-    String = "welcome to tencent party"
+    String = "welcome to tencent party！"
     String_list = []
     num = []
     dic = {}
