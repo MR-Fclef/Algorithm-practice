@@ -12,9 +12,16 @@ class Solution:
         			result.append(i)
         			result.append(j)
         return result
-
+    def Testsum(self,nums,target):
+    	ddict = {}
+    	for i in range(len(nums)):
+    		x = nums[i]
+    		if target-x in ddict:
+    			return (ddict[target-x],i)
+    		ddict[x] = i
+    	print(ddict)
 if __name__ == '__main__':
-	nums = [3,2,4]
-	target = 6
+	nums = [2,7,11,15]
+	target = 9
 	test = Solution()
-	print(test.twoSum(nums,target))
+	print(test.Testsum(nums,target))
