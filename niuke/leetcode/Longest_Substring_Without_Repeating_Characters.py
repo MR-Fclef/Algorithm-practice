@@ -20,7 +20,7 @@ class Solution:
         return maxlen
 
 if __name__ == '__main__':
-    s = 'pwwk'
+    s = 'pwwkk'
     print(s[0])
     test = Solution()
     print(test.lengthOfLongestSubstring(s))
