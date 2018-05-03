@@ -17,5 +17,5 @@ def partition(array,l,r):
 	print(i+1)
 	return i+1
 if __name__ == '__main__':
-	s = [3,6,5,8,9,4,7]
+	s = [3,6,5,8,9,4,7，10]
 	print(quick_sort(s,l=0,r = len(s)-1))
