@@ -24,6 +24,6 @@ def merge_sort(lists):
 	right = merge_sort(lists[middlle:])
 	return merge(left,right)
 if __name__ == '__main__':
-	a = [4,7,8,3,5,9,10,6]
+	a = [4,7,8,3,5,9,10]
 	print(merge_sort(a))
 
