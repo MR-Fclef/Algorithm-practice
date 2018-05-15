@@ -18,6 +18,6 @@ class Solution:
                         if k[0] > j: res.add((num[i],num[j],num[k[0]],num[k[1]]))
         return [list(i) for i in res]
 test = Solution()
-nums = [1,0,-1,0,2,-2]
+nums = [1,0,-1,0,2,-2，3]
 target = 0
 print(test.fourSum(nums,target))
