@@ -21,7 +21,7 @@ class Solution:
     		ddict[x] = i
     	print(ddict)
 if __name__ == '__main__':
-	nums = [2,7,9,11,15]
+	nums = [1,2,7,9,11,15]
 	target = 9
 	test = Solution()
 	print(test.Testsum(nums,target))
