@@ -25,13 +25,6 @@ class Solution(object):
                 root = stack.pop()
                 root = root.right
         return list
-    
-    def recursive_preorder(self, root, list):
-        if root:
-            list.append(root.val)
-            self.preorder(root.left,list)
-            self.preorder(root.right,list)
-
 
 '''
 解题思路：如果树为下图：
