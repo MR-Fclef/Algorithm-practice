@@ -27,4 +27,4 @@ class Solution(object):
         return result
 
 test = Solution()
-print(test.generateMatrix(4))
+print(test.generateMatrix(3))

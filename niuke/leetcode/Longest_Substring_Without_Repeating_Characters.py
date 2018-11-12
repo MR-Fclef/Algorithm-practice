@@ -1,3 +1,4 @@
+import sys
 class Solution:
     def lengthOfLongestSubstring(self, s):
         """
@@ -20,7 +21,7 @@ class Solution:
         return maxlen
 
 if __name__ == '__main__':
-    s = 'pwwkk'
-    print(s[0])
+    s = sys.stdin.readline()
+    s = s[0:len(s)-1]
     test = Solution()
     print(test.lengthOfLongestSubstring(s))
